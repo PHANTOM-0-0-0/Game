@@ -82,10 +82,10 @@ while True:
             print(help_msg)
             continue
         elif lt == '/used':
-            print('Проверенные буквы: ', ''.join(sorted([s for s in lt_old])))
+            print('▶ Проверенные буквы: ', ''.join(sorted([s for s in lt_old])))
             continue
         elif lt == '/left':
-            print('Непроверенные буквы: ', ''.join(sorted([s for s in (lt_all - lt_old)]) ))
+            print('▶ Непроверенные буквы: ', ''.join(sorted([s for s in (lt_all - lt_old)]) ))
             continue
         elif lt == '/quit':
             break
